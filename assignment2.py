@@ -3,7 +3,7 @@ s1 = "Ault"
 s2 = "Kelly"
 middleIndex = int(len(s1)/2)
 print("Original Strings are", s1,s2)
-middle_three = s1[:middleIndex:] + s2 + s1[middleIndex:]
+middle_three = s1[0:middleIndex:] + s2 + s1[middleIndex:]
 print("The new string after appending in the middle is \n\t\t:", middle_three)
 
 
