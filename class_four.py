@@ -16,11 +16,11 @@
 # #print(output)
 
 # #question 2
-list_numbers = [500,200,[200,500,700,[250,800],250],[1000]]
-new_number = list_numbers[2][2] + list_numbers[2][3][1]
-print(new_number)
-list_numbers[3].append(new_number)
-print(list_numbers)
+# list_numbers = [500,200,[200,500,700,[250,800],250],[1000]]
+# new_number = list_numbers[2][2] + list_numbers[2][3][1]
+# print(new_number)
+# list_numbers[3].append(new_number)
+# print(list_numbers)
 
 # #question 3
 # #str1 = "Emma is a data scientist who knows python. Emma works at  google."
@@ -42,11 +42,11 @@ print(list_numbers)
 # #b = a.remove(3)
 # #print(a)
 
-# # pop method(list)
-# #a = [0,1,2,3,4]
-# #b = a.pop(-1)
-# #print(a)
-# #print(b) 
+ # pop method(list)
+a = [0,1,2,3,4]
+b = a.pop(-1)
+print(a)
+print(b) 
 
 # #Insert method(List)
 # #List_ = [3136,3249,3364,3481,3600,3721,3844,3969,4096]
