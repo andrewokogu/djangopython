@@ -16,11 +16,11 @@
 # #print(output)
 
 # #question 2
-# #list_numbers = [500,200,[200,500,700,[250,800],250],[1000]]
-# #new_number = list_numbers[2][2] + list_numbers[2][3][1]
-# #print(new_number)
-# #list_numbers[3].append(new_number)
-# #print(list_numbers)
+list_numbers = [500,200,[200,500,700,[250,800],250],[1000]]
+new_number = list_numbers[2][2] + list_numbers[2][3][1]
+print(new_number)
+list_numbers[3].append(new_number)
+print(list_numbers)
 
 # #question 3
 # #str1 = "Emma is a data scientist who knows python. Emma works at  google."
