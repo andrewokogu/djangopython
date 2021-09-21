@@ -1,8 +1,13 @@
 #question 1
+my_list= ['this', True, 'Student', 45, 66.43]
+cloned_list = my_list.copy()
+print(" The cloned list is :\t\t",cloned_list)
+
+#question 1
 # my_list= ['this', True, 'Student', 45, 66.43]
-# cloned_list = my_list
-# #my_list.copy()
+# cloned_list = my_list[0:]
 # print(" The cloned list is :\t\t",cloned_list)
+
 
 #question 2
 # sample_list = ['Red','Green','White','Black','Pink','yellow']
@@ -22,10 +27,25 @@
 # color_list.insert(2,user_input)
 # print(color_list)
 
-#question 4
+#question 4 (using append)
 # list1=[10,20,[300,400,[5000,6000],30,40]]
 # print(list1)
 # new_number = 7000
 # list1[2][2].append(new_number)
 # print(list1)
+
+#question 4 (using insert)
+# list1=[10,20,[300,400,[5000,6000],30,40]]
+# print(list1)
+# new_number = 7000
+# list1[2][2].insert(2,new_number) #any position of number that is not 0,1 returns same output
+# print(list1)
+
+#question 4 (extend)
+# list1=[10,20,[300,400,[5000,6000],30,40]]
+# print(list1)
+# list1[2][2].extend([7000])
+# print(list1)
+
+
 
