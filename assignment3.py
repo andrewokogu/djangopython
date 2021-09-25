@@ -22,10 +22,10 @@ print(" The cloned list is :\t\t",cloned_list)
 # print(color_list)
 
 #question 3 (using insert)
-# color_list = ['Red', 'Green','White','Black','Pink','Yellow']
-# user_input = input("Enter your favourite color")
-# color_list.insert(2,user_input)
-# print(color_list)
+color_list = ['Red', 'Green','White','Black','Pink','Yellow']
+user_input = input("Enter your favourite color")
+color_list.insert(2,user_input)
+print(color_list)
 
 #question 4 (using append)
 # list1=[10,20,[300,400,[5000,6000],30,40]]
