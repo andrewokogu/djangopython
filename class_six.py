@@ -10,9 +10,9 @@
 # print(pets)
 
 #adding another un-existing key to the dictionary
-# my_diction = {"pet":"Dog","Colour":"Brown"}
-# my_diction["ejiro"] = "Black"
-# print(my_diction)
+my_diction = {"pet":"Dog","Colour":"Brown"}
+my_diction["ejiro"] = "Black"
+print(my_diction)
 
 #get am input from the user to ask for his course and score. Add his course to the course and his score
 # user_course = input("Enter a course\n")
