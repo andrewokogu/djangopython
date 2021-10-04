@@ -52,7 +52,7 @@ for i in range(1000):
                 user_data[acc_num] = pin
                 print(user_data)
                 break
-        #continue option to login/create account
+#continue option to login/create account
         con_tinue = input("Press 'y' to login and any key to Quit!\n>>").lower()  
         if con_tinue =='y':
             continue
@@ -60,8 +60,8 @@ for i in range(1000):
             break
         
                     
-        #atm options
-    # for i in range(100):    
+#atm options
+      
     print('Please Press 1 For Your Balance\n')
     print('Please Press 2 To Make a Withdrawal\n')
     print('Please Press 3 To Deposit money\n')
