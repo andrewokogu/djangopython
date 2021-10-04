@@ -109,6 +109,7 @@ import random
 # #self created function to generate random numbers  
 
 import random
+from typing_extensions import ParamSpecArgs
 # print("Welcome to this game")
 # list_of_numbers = [0,34,23,12,5,67,4,24,79,33,7,8,2]
 # choice = int(input(f"Guess number from:\n{list_of_numbers}\n>>"))
@@ -121,33 +122,68 @@ import random
 # game using random
 
 #rock paper scissors game
-print("Welcome to this game")
-list_choices = ['Rock','Paper','Scissors']
-choice = input(f"Pick something from the list:\n{list_choices}\n>>").title()
-print(choice)
-random.shuffle(list_choices)
-comp_choice = random.choice(list_choices)
+# print("Welcome to this game")
+# list_choices = ['Rock','Paper','Scissors']
+# choice = input(f"Pick something from the list:\n{list_choices}\n>>").title()
+# print(choice)
+# random.shuffle(list_choices)
+# comp_choice = random.choice(list_choices)
 
-if choice == comp_choice:
-    print("draw")
-elif choice == list_choices[0] and comp_choice == list_choices[1]:
-    print("computer wins")
+# if choice == comp_choice:
+#     print("draw")
+# elif choice == list_choices[0] and comp_choice == list_choices[1]:
+#     print("computer wins")
 
-elif choice == list_choices[0] and comp_choice == list_choices[2]:
-    print("user wins")
+# elif choice == list_choices[0] and comp_choice == list_choices[2]:
+#     print("user wins")
 
-elif choice == list_choices[1] and comp_choice == list_choices[0]:
-    print("computer wins")
+# elif choice == list_choices[1] and comp_choice == list_choices[0]:
+#     print("computer wins")
 
-elif choice == list_choices[1] and comp_choice == list_choices[2]:
-    print("computer wins")
+# elif choice == list_choices[1] and comp_choice == list_choices[2]:
+#     print("computer wins")
 
-elif choice == list_choices[2] and comp_choice == list_choices[0]:
-    print("user wins")
+# elif choice == list_choices[2] and comp_choice == list_choices[0]:
+#     print("user wins")
 
-elif choice == list_choices[2] and comp_choice == list_choices[1]:
-    print("computer wins")
+# elif choice == list_choices[2] and comp_choice == list_choices[1]:
+#     print("computer wins")
+
+# else:
+#     print("wrong input value") 
+    
+
+print("welcome to the game")
+print("Rock Paper Scissors")
+choice = input("Enter 'h' for help or 'p' to play:\n>").lower()
+
+help = """
+This is a simple game that follows the rule below:
+Rock wins Scissors
+Paper wins Rock
+Scissors wins Paper
+"""
+
+print(help)
+
+player_choice = input("what do you choose?\n>").lower()
+choices = ['r','p','s']
+random.shuffle(choices)
+com_choice = random.choice(choices)
+
+if player_choice in choices:
+    if(player_choice=='r' and com_choice=='s') or (player_choice=='p' and com_choice=='r') or (player_choice=='s'and com_choice=='p'):
+     print("you win")
+
+    elif (com_choice=='r' and player_choice=='s') or (com_choice=='p' and player_choice=='r') or (com_choice=='s' and player_choice=='p'):
+     print("computer win")
+
+    else:
+     print('its a tie')
 
 else:
-    print("wrong input value") 
-    
+    print("invalid input. you lose!")
+
+
+
+
