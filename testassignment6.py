@@ -2,7 +2,7 @@ import random
 import time
 
 user_data = {}
-balance = 20000
+balance = 0
 isvalid = True
 
 #log in
