@@ -1,3 +1,6 @@
+#string slicing
+
+
 #s1="blue sky"
 #print(s1[2:5])
 #print(s1[0:6])

@@ -173,4 +173,4 @@ Press any other key to logout\n>>""").lower()
 
 
 print(user_data)
-print(transaction_record)
+print(trans_data)

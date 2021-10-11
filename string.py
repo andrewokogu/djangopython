@@ -1,3 +1,4 @@
+#string indexing and slcing
 Firstname ="EJIRO"
 Lastname ="Okogu"
 Fullname = Firstname + " " + Lastname
@@ -32,6 +33,7 @@ print(Fullname [7:13])
 #print ("welcome {}.you were born in ".format(year))
 
 #string methods
+
 #name = "MY FILE.PDF".upper()
 #print(name)
 #print(name.endswith("pdf"))

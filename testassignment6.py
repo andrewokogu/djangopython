@@ -1,3 +1,4 @@
+#bank app adapted from algorithmbankapp.py
 import random
 import time
 
@@ -41,6 +42,7 @@ for i in range(1000):
 
             else:
                 isvalid = True
+                #generates the random account number
                 user_account_number = random.sample(range(0,10),9)
                 account_no_str = [str(i) for i in user_account_number]
                 acc_num = "".join(account_no_str)
