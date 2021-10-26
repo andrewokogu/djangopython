@@ -12,3 +12,11 @@ class BookAdmin(admin.ModelAdmin):
     list_filter = ['date']
     list_per_page = 2
     search_fields = ['title', 'body','author']
+
+@admin.register(Student)
+class StudentAdmin(admin.ModelAdmin):
+    list_display = ['name', 'age', 'department', 'course','date_of_entry']
+    list_editable = ['department']
+    list_filter = ['course']
+    list_per_page = 2
+    search_fields = ['name', 'department','course']    
